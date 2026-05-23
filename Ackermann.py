@@ -1,3 +1,6 @@
+import sys
+sys.setrecursionlimit(1000000)
+
 def ackermann(m, n):
     if m == 0:
         return n + 1
